@@ -12,10 +12,10 @@ library(tidyverse)
 
 
 ```{r}
-data <- starwars
+data <- ToothGrowth
 ```
 
 ```{r}
-
+data()
 ```
 
