@@ -23,3 +23,8 @@ some_object %>%
 
 ```
 
+```{r}
+plot(some_object)
+
+```
+
