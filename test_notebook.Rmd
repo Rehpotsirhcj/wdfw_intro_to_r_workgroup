@@ -24,7 +24,17 @@ some_object %>%
 ```
 
 ```{r}
-plot(some_object)
+plot(some_object) 
+
+```
+```{r}
+
+
+some_object %>% 
+  ggplot(aes(x = speed, y = dist)) +
+  geom_point() +
+  geom_smooth()
+
 
 ```
 
