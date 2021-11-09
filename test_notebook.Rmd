@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+An example of code created in an RStudio Notebook
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+
+```{r}
+some_object <- cars
+```
+
+```{r}
+
+some_object %>% 
+  filter(speed > 10)
+
+```
+
