@@ -1,9 +1,11 @@
 ---
-title: "R Notebook"
+title: "Week 1"
 output: html_notebook
+date: "January 12, 2022"
+
 ---
 
-a new test file
+
 
 ```{r}
 library(tidyverse)
